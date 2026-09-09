@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { 
   ShieldAlert, 
-  ShieldCheck, 
   Crosshair, 
-  Cpu, 
   Activity, 
   AlertTriangle, 
   Bot, 
   CheckCircle2, 
   Ban, 
   Terminal, 
-  Clock, 
   Eye, 
-  FileText,
-  Radio,
-  Monitor
+  Radio, 
+  Monitor 
 } from 'lucide-react';
 
 interface TelemetryFrame {
